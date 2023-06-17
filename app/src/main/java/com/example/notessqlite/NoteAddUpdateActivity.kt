@@ -150,7 +150,6 @@ class NoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         showAlertDialog(ALERT_DIALOG_CLOSE)
     }
 
-
     private fun showAlertDialog(type: Int) {
         val isDialogClose = type == ALERT_DIALOG_CLOSE
         val dialogTitle: String
@@ -190,6 +189,5 @@ class NoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         val alertDialog = alertDialogBuilder.create()
         alertDialog.show()
     }
-
 
 }
